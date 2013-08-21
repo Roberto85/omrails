@@ -1,4 +1,13 @@
 <div class="center hero-unit">
+<% if user_signed_in? %>
+
+
+<h1>ConsultancyNet</h1>
+You are loged in 
+Aren't you?
+
+<% else %>
+
 <h1>ConsultancyNet</h1>
 
 <p>You found the homepage for the future <%= link_to "consultancynet", "http://www.ConsultancyNet.eu" %> website
@@ -7,4 +16,5 @@
 <p>
 	<%= link_to "Sign Up Now!", new_user_registration_path, class: "btn btn-large btn-primary" %>
 </p>
+<% end %>
 </div>
