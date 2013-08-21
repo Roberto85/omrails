@@ -6,10 +6,11 @@ gem 'jquery-rails'
 
 gem 'turbolinks'
 gem 'devise'
-gem 'simple_form'
+gem 'simple_form', '~> 3.0.0.rc'
 gem 'jbuilder', '~> 1.2'
 gem 'sass-rails', '~> 4.0.0.rc2'
 gem 'bootstrap-sass', '~> 2.2.2.0'
+
 group :assets do
 	
 	gem 'uglifier', '>= 1.3.0'
