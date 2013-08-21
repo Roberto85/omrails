@@ -5,7 +5,7 @@ gem 'rails', '4.0.0.rc2'
 gem 'jquery-rails'
 
 gem 'turbolinks'
-
+gem 'devise'
 gem 'jbuilder', '~> 1.2'
 gem 'sass-rails', '~> 4.0.0.rc2'
 gem 'bootstrap-sass', '~> 2.2.2.0'
